@@ -7,6 +7,7 @@
   <title>Switch To Bit - Cryptocurrency</title>
   <link rel="icon" href="assets/main_biotcoin_logo.22d9ada9.png" />
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 
 <body style=" overflow-x: hidden;">
@@ -164,34 +165,34 @@
       <a href="assets/BTC.jpeg" target="_blank"
         class="w-32 md:w-1/2 text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">BITCOIN</a> -->
 
-      <a href="assets/btc.jpg" target="_blank"
+      <a href="assets/btc.jpg" target="_blank" onclick="sendBTC()"
         class="w-32 md:w-1/2 text-red-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 md:focus:outline-none md:focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">BITCOIN</a>
 
-      <a href="assets/doge.jpg" target="_blank"
+      <a href="assets/doge.jpg" target="_blank" onclick="sendDOGE()"
         class="w-32 md:w-1/2 text-red-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 md:focus:outline-none md:focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">DOGE COIN</a>
 
-      <a href="assets/shb.jpg" target="_blank"
+      <a href="assets/shb.jpg" target="_blank" onclick="sendSHB()"
         class="w-32 md:w-1/2 text-red-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 md:focus:outline-none md:focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">SHIBA INU</a>
 
-      <a href="assets/binance.jpg" target="_blank"
+      <a href="assets/binance.jpg" target="_blank" onclick="sendBNC()"
         class="w-32 md:w-1/2 text-red-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 md:focus:outline-none md:focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">BINANCE</a>
 
-      <a href="assets/sol.jpg" target="_blank"
+      <a href="assets/sol.jpg" target="_blank" onclick="sendSOL()"
         class="w-32 md:w-1/2 text-red-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 md:focus:outline-none md:focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">SOLANA&nbsp;</a>
 
-      <a href="assets/neo.jpg" target="_blank"
+      <a href="assets/neo.jpg" target="_blank" onclick="sendNEO()"
         class="w-32 md:w-1/2 text-red-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 md:focus:outline-none md:focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">NEO</a>
 
-      <a href="assets/lite.jpg" target="_blank"
+      <a href="assets/lite.jpg" target="_blank" onclick="sendLITE()"
         class="w-32 md:w-1/2 text-red-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 md:focus:outline-none md:focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">LITECOIN</a>
 
-      <a href="assets/pol.jpg" target="_blank"
+      <a href="assets/pol.jpg" target="_blank" onclick="sendPOL()"
         class="w-32 md:w-1/2 text-red-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 md:focus:outline-none md:focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">POLYGON</a>
 
-      <a href="assets/eth.jpg" target="_blank"
+      <a href="assets/eth.jpg" target="_blank" onclick="sendETH()"
         class="w-32 md:w-1/2 text-red-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 md:focus:outline-none md:focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">ETHEREUM</a>
 
-      <a href="assets/monero.jpg" target="_blank"
+      <a href="assets/monero.jpg" target="_blank" onclick="sendMON()"
         class="w-32 md:w-1/2 text-red-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 md:focus:outline-none md:focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 md:hidden" >MONERO</a>
     </div>
   </section>
@@ -410,6 +411,7 @@
       href: href,
     }).click();
   }
+
 </script>
 
 </html>
