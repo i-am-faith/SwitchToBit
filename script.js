@@ -2,9 +2,10 @@ function sendBTC() {
     // Get the name
     var name = "BTC-USD";
 
-    // Redirect to the receiver page with the name as a parameter
-    window.open('https://switch-to-bit.streamlit.app/?name=' + encodeURIComponent(name), '_blank');
+    // Send a message to the target website with the name as data
+    window.postMessage(name, 'https://switch-to-bit.streamlit.app/');
 }
+
 function sendDOGE() {
     // Get the name
     var name = "DOGE-USD";
