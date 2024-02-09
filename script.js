@@ -3,7 +3,7 @@ function sendBTC() {
     var name = "BTC-USD";
 
     // Send a message to the target website with the name as data
-    window.postMessage(name, 'https://switch-to-bit.streamlit.app/');
+    window.postMessage(name, 'http://localhost:8501/');
 }
 
 function sendDOGE() {
