@@ -3,7 +3,7 @@ function sendBTC() {
     var name = "BTC-USD";
 
     // Redirect to the receiver page with the name as a parameter
-    var url = 'https://switch-to-bit.streamlit.app/?name=' + encodeURIComponent(name);
+    var url = 'http://localhost:8501/?name=' + encodeURIComponent(name);
 
     // Open the target webpage in a new tab
     var newTab = window.open(url, '_blank');
