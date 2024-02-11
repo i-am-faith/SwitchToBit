@@ -47,7 +47,7 @@ function sendLITE() {
     var name = "LTC-USD";
 
     // Redirect to the receiver page with the name as a parameter
-    window.open('https://switch-to-bit-predictor-lite.streamlit.app/name=' + encodeURIComponent(name), '_blank');
+    window.open('https://switch-to-bit-predictor-lite.streamlit.app/?name=' + encodeURIComponent(name), '_blank');
 }
 function sendPOL() {
     // Get the name
