@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etherum Price Prediction</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: rgb(17, 24, 39); /* Dark background */
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-10">
+            <h1 class="text-4xl font-bold text-white mb-4">Etherum Price Prediction</h1>
+            <p class="text-lg text-gray-400">Get future price predictions for the next 12 months</p>
+        </div>
+        <div class="bg-gray-800 shadow-lg rounded-lg p-6 max-w-3xl mx-auto">
+            <div class="text-center">
+                <h2 class="text-2xl font-semibold text-white mb-4">Predicted Prices</h2>
+                <button id="predictBtn" class="bg-blue-500 text-white px-6 py-3 rounded-md text-lg hover:bg-blue-600 focus:outline-none">Predict Future Prices</button>
+            </div>
+            <div id="predictionResult" class="mt-8 bg-gray-900 p-4 rounded-lg">
+                <!-- Table will be inserted here -->
+            </div>
+        </div>
+    </div>
+    <script src="eth.js"></script> <!-- Link to external JS file -->
+</body>
+</html>
